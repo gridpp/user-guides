@@ -1,4 +1,6 @@
-user-guides
-===========
+GridPP User Guides (Beta)
+=========================
 
-A repository for GridPP user guides (beta).
+Welcome to the GridPP User Guides repository!
+
+More information is available in the wiki on the right.
