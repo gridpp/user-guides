@@ -12,7 +12,7 @@ This guide presents a series of checklists to work through - with tests - to get
 * **Viewing your certificate details**: visit <a href="https://portal.ca.grid-support.ac.uk/caportal/cert_owner" target="_blank">this website</a> with your browser. You should see your grid certificate details displayed;
 * **Accessing the Imperial DIRAC server**: access https://dirac.gridpp.ac.uk with your browser. If your grid certificate has been successfully installed in your browser, your browser should ask you to identify yourself with the certificate in question. You will then see the Imperial DIRAC server homepage. Check the bottom right-hand corner - if you can only see _Visitor_ and **not** your username and DN, you are (or rather, your certificate is) not registered with the Imperial DIRAC server
 * - please contact [mailto:lcg-site-admin@imperial.ac.uk Imperial Dirac Support]. Note that there is a couple of hours (< 24) delay after joining a VO, before the dirac server recognizes you.
-* **Joining the Imperial DIRAC mailing list**: once you have subscribed, you should be able to view the <a href="https://mailman.ic.ac.uk/mailman/roster/gridpp-dirac-users" target="_blank">subscribers list</a> from the <a href="https://mailman.ic.ac.uk/mailman/listinfo/gridpp-dirac-users" target="_blank">list homepage</a> and see that you're on it.
+* **Joining the Imperial DIRAC mailing list**: once you have _**subscribed**_ and have _**been approved**_, you should be able to view the <a href="https://mailman.ic.ac.uk/mailman/roster/gridpp-dirac-users" target="_blank">subscribers list</a> from the <a href="https://mailman.ic.ac.uk/mailman/listinfo/gridpp-dirac-users" target="_blank">list homepage</a> and see that you're on it.
 
 
 ##Your Virtual Organisation
