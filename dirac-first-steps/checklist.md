@@ -1,9 +1,7 @@
-# Getting started with DIRAC - checklist
+# First steps with DIRAC - checklist
 
-* I have a <a href="https://www.gridpp.ac.uk/wiki/Grid_user_crash_course#Getting_a_grid_certificate" target="_blank">grid certificate</a>;
-* I have <a href="http://ngs.ac.uk/ukca/certificates/certimport" target="_blank">installed my grid certificate in my browser</a>;
-* I have joined a VO;
-* I have accessed the <a href="https://dirac.gridpp.ac.uk" target="_blank">Imperial DIRAC server</a>;
-* I have joined the <a href="https://mailman.ic.ac.uk/mailman/listinfo/gridpp-dirac-users" target="_blank">Imperial DIRAC mailing list</a>.
-
-
+* I have registered with the GridPP DIRAC instance by emailing <a href="mailto:lcg-site-admin@imperial.ac.uk" target="_blank">GridPP DIRAC support team</a>.
+* I have accessed the <a href="https://dirac.gridpp.ac.uk" target="_blank">GridPP DIRAC server</a> with my grid certificate-enabled browser.
+* I am recognised by the <a href="https://dirac.gridpp.ac.uk" target="_blank">GridPP DIRAC server</a> as a _Visitor_.
+* I am recognised by the <a href="https://dirac.gridpp.ac.uk" target="_blank">GridPP DIRAC server</a> as a member of a GridPP DIRAC-supported VO.
+* I have joined the <a href="https://mailman.ic.ac.uk/mailman/listinfo/gridpp-dirac-users" target="_blank">GridPP DIRAC mailing list</a>.
