@@ -1,5 +1,7 @@
 #First steps with DIRAC
 
+_For an overview of the process, see the [checklist](/checklist.html)_.
+
 There are many ways of accessing and using grid resources.
 Larger organisations - such as the four LHC experiments - 
 have developed their own frameworks, architectures and mechanisms
@@ -22,50 +24,29 @@ instance of DIRAC on behalf of GridPP.
 The Imperial DIRAC instance is is capable of serving multiple VOs,
 providing grid job and data management capabilities for smaller,
 non-LHC user communities wishing to make use of GridPP resources.
-As a new user, you can register to use the GridPP DIRAC instance
-as a member of the `gridpp` VO or one of the Regional VOs.
-This will allow you to test out various bits of grid functionality
+As a new user, you are automatically registered with the
+GridPP DIRAC instance and the Virtual Organisations you have
+joined.
+You can then test out various bits of grid functionality
 to determine if grid computing will meet your needs and the needs
 of your users.
 
-To register, simply email the
-<a href="mailto:lcg-site-admin@imperial.ac.uk" target="_blank">GridPP DIRAC Support Team</a>
-with your grid certificate DN
-(you can find this out by accessing
-<a href="https://portal.ca.grid-support.ac.uk/caportal/cert_owner" target="_blank">this website</a>)
-and the VOs you wish to use with the GridPP DIRAC instance.
-
-A typical registration request email should look like this:
-
-```
-To:   lcg-site-admin@imperial.ac.uk
-From: a.lovelace@london.ac.uk
-Subject: GridPP DIRAC registration
-
-Dear GridPP DIRAC team,
-
-I would like to register with GridPP DIRAC. Please could you arrange this for me?
-
-My certificate DN is:
-
-/C=UK/O=eScience/OU=UniOfLondon/L=Computing/CN=ada lovelace
-
-and I would like to be registered with the following VOs:
-
-vo.londongrid.ac.uk
-vo.analytical-engine.ac.uk
-
-Many thanks in advance, Ada
-```
-
-All being well the GridPP DIRAC team should respond within 24 hours
-to inform you that you have been successfully registered.
-You can test the success of the registration by following the
-steps [here](testing.md).
-
-Once registered with DIRAC you will be able to interact with the
+You can interact with the
 Grid via the GridPP DIRAC web portal at
 <a href='https://dirac.gridpp.ac.uk' target='_blank'>https://dirac.gridpp.ac.uk</a>.
+When you access the portal, you should see yourself listed as
+a **Visitor** in drop-down menu in the bottom-right corner of the browser.
+Once you have joined one or more DIRAC-supported Virtual Organisations,
+you will be able to select which VO you use DIRAC as
+using this drop-down menu.
+
+> You should also join the GridPP DIRAC mailing list
+> to keep informed of the latest developments
+> and receive notices of any downtime.
+> You can join the mailing list
+> <a href='https://mailman.ic.ac.uk/mailman/listinfo/gridpp-dirac-users' target='_blank'>here</a>.
+
+So you've accessed the GridPP DIRAC web portal. Congratulations!
 However, to harness the true power of GridPP's resources you
 will probably need a User Interface (UI) with access to DIRAC's
 command line and scripting functionality.
