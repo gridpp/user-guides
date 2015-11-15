@@ -1,4 +1,7 @@
 #Creating a GridPP DIRAC UI
+
+_For an overview of the process, see the [checklist](/checklist.html)_.
+
 As well as its web portal,
 DIRAC provides a command line-based User Interface (UI)
 for interacting with the Grid.

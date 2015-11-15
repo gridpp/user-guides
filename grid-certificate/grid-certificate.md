@@ -1,6 +1,6 @@
 #Your Grid certificate
 
-> _For an overview of this process, see the [checklist](/checklist.html)_.
+_For an overview of the process, see the [checklist](/checklist.html)_.
 
 Your grid certificate is your passport to the grid.
 It will give you access to the vast array of computational resources that
