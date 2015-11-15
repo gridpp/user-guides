@@ -52,7 +52,7 @@ with the CernVM desktop.
 * **Accessing your local machine's hard disk from you CernVM**:
 You can access (from the command line or otherwise) folders on
 your local machine's hard disk on the GridPP CernVM.
-So, for example,
+So (for example)
 if you're using VirtualBox with the _Shared Folders_ functionality,
 after adding the folders you want access to via the VM's _Settings_
 and rebooting the VM you'll do something like this:
