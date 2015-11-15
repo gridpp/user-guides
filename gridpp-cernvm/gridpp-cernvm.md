@@ -1,5 +1,7 @@
 #Creating a Grid UI with a GridPP CernVM
 
+_For an overview of the process, see the [checklist](/checklist.html)_.
+
 Your Grid User Interface (UI) is the means by which you will access the Grid.
 For the purpose of getting you started quickly on the Grid with the
 GridPP DIRAC instance, we will:
