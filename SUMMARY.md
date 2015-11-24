@@ -25,3 +25,6 @@ Welcome to the [GridPP](http://www.gridpp.ac.uk) UserGuide.
 * [Creating a GridPP DIRAC UI](dirac-create-ui/dirac-create-ui.md)
     * [Checklist](dirac-create-ui/checklist.md)
     * [Testing](dirac-create-ui/testing.md)
+
+* [The DIRAC Basic Tutorials](dirac-basic-tutorials/dirac-basic-tutorials.md)
+    * [Checklist](dirac-basic-tutorials/checklist.md)
