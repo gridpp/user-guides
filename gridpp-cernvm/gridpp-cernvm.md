@@ -1,41 +1,58 @@
-#Creating a Grid UI with a GridPP CernVM
+#The CernVM: Create Your Own Virtual Grid Node
+Before we get you on the Grid, we will first bring a little
+(virtual) piece of the Grid to you.
+The Grid consists of tens - possibly even hundreds - of thousands
+of computing cores that power the Grid's **worker nodes**.
 
-_For an overview of the process, see the [checklist](/checklist.html)_.
+<table>
+<tr>
+<td align='center'><i class="fa fa-info-circle" style='font-size:3em'></i></td>
+<td>
+A <strong>Worker Node</strong> (WN) is the atomic unit of
+Grid computing, representing a point within the Grid where
+useful work - jobs - are carried at the behest of the Grid user
+who submitted them.
+</td>
+</tr>
+</table>
 
-Your Grid User Interface (UI) is the means by which you will access the Grid.
-For the purpose of getting you started quickly on the Grid with the
-GridPP DIRAC instance, we will:
-
-* Use the
-<a href='https://www.scientificlinux.org/' target='_blank'>Scientific Linux 6</a>
-(SL6) operating system;
-* Perform most tasks via the command line using the terminal.
-
-If you already have access to an account on an SL6 terminal, you can probably
-skip this section.
-
-If you don't,
-or aren't quite sure what that last sentence even means,
-don't worry.
-We can create a Grid-ready UI from scratch on your own system using
-_virtualisation_.
-We will create a **Virtual Machine** (VM) that runs SL6 within whatever
-operating system you happen to be using at the moment using the
-<a href='http://cernvm.cern.ch/' target='_blank'>CernVM service</a>.
+To give you a taste of the Grid before actually getting on the Grid,
+we will create a **Virtual Machine** (VM)
+that will, essentially, act like a Grid Worker Node (WN)
+within whatever
+operating system you happen to be using at the moment.
+We will do this using the
+<a href='http://cernvm.cern.ch/' target='_blank'>CernVM service</a>,
+and create a guest CernVM on your host system.
 There are a number of reasons to do this:
 
-1. Most of the Grid tools we'll use are compiled to run on SL6.
+1. Most of the Grid tools we will use are compiled to run on
+Scientific Linux 6;
 With a CernVM you'll be able to use them out of the box;
-1. The standard Grid worker nodes you'll be using to run your software
+1. The standard Grid Worker Nodes you'll be using to run your software
 on use SL6 machines. If your code runs on your CernVM, it will run
-on the Gri.
-1. We at GridPP will only have to support one operating system. If we're
-singing from the same (virtual) hymn sheet, we'll be able to recreate your
+on the Grid;
+1. The CernVM can also act as a pre-built Grid User Interface (UI) that will give
+you all the tools you need (e.g. a command line terminal, text editors, etc.)
+to get the most out of the Grid;
+1. What's more, if everyone uses the CernVM as their Grid UI,
+we at GridPP will only have to support one operating system
+(i.e. the SL6 supplied with the CernVM).
+If we're singing from the same (virtual) hymn sheet, we'll be able to recreate your
 problems and help you solve them more easily.
 
-All you need to provide is the RAM and the hard disk space on your local machine.
+All you need to provide is the RAM and the hard disk space on your local host machine.
 
-Convinced? Good. Let's get started.
+<table>
+<tr>
+<td align='center'><i class="fa fa-lightbulb-o" style='font-size:3em'></i></td>
+<td>
+If you already have access to a user account on an SL6 terminal,
+for example on a university computing cluster,
+you can probably skip this section.
+</td>
+</tr>
+</table>
 
 ##An overview of the process
 
@@ -53,24 +70,38 @@ Let's look at each of these stages in a bit more detail.
 ##The virtualisation software
 You can find a list of compatible virtualisation software solutions
 on the CernVM image download page
-<a href='http://cernvm.cern.ch/portal/downloads' target='_blank'>here</a>.
+[here](http://cernvm.cern.ch/portal/downloads).
 It doesn't really matter which you use but we've had success with
-<a href='http://download.virtualbox.org/virtualbox/4.3.12/VirtualBox-4.3.12-93733-Win.exe' target='_blank'>
-this version of VirtualBox</a> (Windows 7).
+[this version of VirtualBox](http://download.virtualbox.org/virtualbox/4.3.12/VirtualBox-4.3.12-93733-Win.exe)
+(Windows 7).
 
-> _This is the one bit that's a bit tricky for us to support - how you do this
-> will depend on your local machine and its setup. Remember,
-> search engines and
-> <a href='http://stackoverflow.com/' target='_blank'>Stack Overflow</a>
-> are your friends here_.
+<table>
+<tr>
+<td align='center'><i class="fa fa-warning" style='font-size:3em'></i></td>
+<td>
+This is the one bit that's a bit tricky for us to support - how you do this
+will depend on your local machine and its setup. Remember,
+search engines and
+<a href='http://stackoverflow.com/' target='_blank'>StackOverflow</a>
+are your friends here.
+</td>
+</tr>
+</table>
 
 ##Creating your CernVM
 Depending on the virtualisation solution you picked (and got working)
 above, download the baseline CernVM image file from
 <a href='http://cernvm.cern.ch/portal/downloads' target='_blank'>here</a>.
 
-> _At the time of writing (October 2015), the latest version was
-> CernVM 3.5.1_.
+<table>
+<tr>
+<td align='center'><i class="fa fa-info-circle" style='font-size:3em'></i></td>
+<td>
+At the time of writing (October 2015), the latest version was
+CernVM 3.5.1.
+</td>
+</tr>
+</table>
 
 Then use your virtualisation software to create a new VM from the
 downloaded image. You should be able to find instructions for
@@ -100,11 +131,11 @@ so it is possible for anyone with a grid certificate to use it!
 To pair your local CernVM with the GridPP context:
 
 1. **Log in to the CernVM service**: You can do this
-<a href='https://cernvm-online.cern.ch/user/login' target='_blank'>here</a>.
+[here](https://cernvm-online.cern.ch/user/login).
 If you don't have a CERN account, you can register
-<a href='' target='https://cernvm-online.cern.ch/user/register'>here</a>.
+[here](https://cernvm-online.cern.ch/user/register).
 1. **Visit the CernVM Marketplace**: This can be found
-<a href='https://cernvm-online.cern.ch/market/list' target='_blank'>here</a>.
+[here](https://cernvm-online.cern.ch/market/list).
 1. **Select the GridPP CernVM context**:
 Select _Experimental_ from the panel on the right,
 and then click on the `gridpp-cernvm` context.
@@ -140,23 +171,16 @@ your host machine from that of your guest CernVM.
 This is so that you can move any files that you need across
 to the CernVM - most importantly, your Grid certificate file.
 
-> With VirtualBox, for example, this is achieved using the
-> _Shared Folders_ functionality.
+<table>
+<tr>
+<td align='center'><i class="fa fa-info-circle" style='font-size:3em'></i></td>
+<td>
+With VirtualBox, for example, this is achieved using the
+Shared Folders functionality.
+</td>
+</tr>
+</table>
 
 Before proceeding, you should make sure that you can
 access the parts of your local hard disk that contain
-any software or data that you want to copy across and,
-of course, your Grid certificate file.
-
-##Getting help
-
-This part of the process is one of the trickiest for us
-to support as many different users will use different
-host machines, virtualisation software, etc.
-So, if you have any problems with any of the above steps,
-please raise an issue on the
-<a href='https://github.com/gridpp/user-guides/issues' target='_blank'>UserGuide GitHub Issues</a>
-page and we'll try to help and update the documentation
-accordingly. Thanks!
-
-Now let's get on the Grid!
+any software or data that you want to copy across.
