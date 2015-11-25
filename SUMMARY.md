@@ -1,6 +1,15 @@
 #Summary
 
-Welcome to the [GridPP](http://www.gridpp.ac.uk) UserGuide.
+Welcome to the [GridPP](https://www.gridpp.ac.uk) UserGuide.
+
+* [Before We Begin](before-we-begin/before-we-begin.md)
+    * [Prerequisites](before-we-begin/prerequisites.md)
+    * [Conventions in this guide](before-we-begin/conventions.md)
+    * [Getting help](before-we-begin/getting-help.md)
+
+* [The CernVM: Create Your Own Virtual Grid Node](gridpp-cernvm/gridpp-cernvm.md)
+    * [Checklist](gridpp-cernvm/checklist.md)
+    * [Testing](gridpp-cernvm/testing.md)
 
 * [Your Grid certificate](grid-certificate/grid-certificate.md)
     * [Checklist](grid-certificate/checklist.md)
@@ -13,10 +22,6 @@ Welcome to the [GridPP](http://www.gridpp.ac.uk) UserGuide.
 * [First steps with DIRAC](dirac-first-steps/dirac-first-steps.md)
     * [Checklist](dirac-first-steps/checklist.md)
     * [Testing](dirac-first-steps/testing.md)
-
-* [Creating a Grid User Interface with a GridPP CernVM](gridpp-cernvm/gridpp-cernvm.md)
-    * [Checklist](gridpp-cernvm/checklist.md)
-    * [Testing](gridpp-cernvm/testing.md)
 
 * [First steps with the Grid](grid-first-steps/grid-first-steps.md)
     * [Checklist](grid-first-steps/checklist.md)
