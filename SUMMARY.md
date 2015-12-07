@@ -11,6 +11,10 @@ Welcome to the [GridPP](https://www.gridpp.ac.uk) UserGuide.
     * [Checklist](gridpp-cernvm/checklist.md)
     * [Testing](gridpp-cernvm/testing.md)
 
+* [A Taste of the Grid: the CernVM-FS](cvmfs-first-steps/cvmfs-first-steps.md)
+    * [Checklist](cvmfs-first-steps/checklist.md)
+    * [Testing](cvmfs-first-steps/testing.md)
+
 * [Your Grid certificate](grid-certificate/grid-certificate.md)
     * [Checklist](grid-certificate/checklist.md)
     * [Testing](grid-certificate/testing.md)
