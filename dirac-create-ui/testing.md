@@ -3,8 +3,8 @@
 * **Installing the GridPP DIRAC UI**:
 The following commands produce the following output:
 ```bash
-[gridpp@localhost ~]$ cd ~/dirac_ui
-[gridpp@localhost ~]$ ls
+$ cd ~/dirac_ui
+$ ls
 DIRAC                    cshrc               etc
 Linux_x86_64_glibc-2.12  defaults-DIRAC.cfg  scripts
 bashrc                   dirac-install       version-2015-07-09.txt
@@ -16,7 +16,7 @@ set using the `echo` command.
 For example, on a GridPP DIRAC UI setup on a CernVM
 using the instructions here, you would get:
 ```bash
-[gridpp@localhost ~]$ echo $DIRAC
+$ echo $DIRAC
 /home/gridpp/dirac_ui
 ```
 If the DIRAC home directory is not listed, the environment
