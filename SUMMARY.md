@@ -32,3 +32,5 @@ Welcome to the [GridPP](https://www.gridpp.ac.uk) UserGuide.
 
 * [The DIRAC Basic Tutorials](dirac-basic-tutorials/dirac-basic-tutorials.md)
     * [Checklist](dirac-basic-tutorials/checklist.md)
+
+* [What's Next?](whats-next/whats-next.md)
