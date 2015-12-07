@@ -15,17 +15,12 @@ Welcome to the [GridPP](https://www.gridpp.ac.uk) UserGuide.
     * [Checklist](cvmfs-first-steps/checklist.md)
     * [Testing](cvmfs-first-steps/testing.md)
 
-* [Your Grid certificate](grid-certificate/grid-certificate.md)
-    * [Checklist](grid-certificate/checklist.md)
-    * [Testing](grid-certificate/testing.md)
-
-* [Joining a Virtual Organisation](joining-a-vo/joining-a-vo.md)
-    * [Checklist](joining-a-vo/checklist.md)
-    * [Testing](joining-a-vo/testing.md)
-
-* [First steps with DIRAC](dirac-first-steps/dirac-first-steps.md)
-    * [Checklist](dirac-first-steps/checklist.md)
-    * [Testing](dirac-first-steps/testing.md)
+* [Getting on the Grid](getting-on-the-grid/getting-on-the-grid.md)
+    * [Getting a grid certificate](getting-on-the-grid/grid-certificate.md)
+    * [Joining a Virtual Organisation](getting-on-the-grid/joining-a-vo.md)
+    * [Logging on with GridPP DIRAC](getting-on-the-grid/dirac-first-steps.md)
+    * [Checklist](getting-on-the-grid/checklist.md)
+    * [Testing](getting-on-the-grid/testing.md)
 
 * [First steps with the Grid](grid-first-steps/grid-first-steps.md)
     * [Checklist](grid-first-steps/checklist.md)
