@@ -4,8 +4,8 @@
 (or whichever location you chose to download the CernVM image file)
 contains the image file.
 ```bash
-analytical-engine:~ alovelace$ cd ~/Downloads
-analytical-engine:Downloads alovelace$ ls -l | grep cernvm
+$ cd ~/Downloads
+$ ls -l | grep cernvm
 cernvm-3.5.1.iso
 ```
 
@@ -26,15 +26,15 @@ localhost login: _
 
 * **Registering with the CernVM Service**:
 You can login via
-<a href='https://cernvm-online.cern.ch/user/login' target='_blank'>this page</a>.
+[this page](https://cernvm-online.cern.ch/user/login).
 When you access
-<a href='https://cernvm-online.cern.ch/' target='_blank'>this page</a>
+[this page](https://cernvm-online.cern.ch/)
 you are redirected to the
-<a href='https://cernvm-online.cern.ch/dashboard/' target='_blank'>CernVM Dashboard</a>.
+[CernVM Dashboard](https://cernvm-online.cern.ch/dashboard).
 
 * **Pairing your CernVM with the GridPP CernVM context**:
 After selecting the GridPP CernVM context in the
-<a href='' target='_blank'>CernVM Marketplace</a>
+[CernVM Marketplace](https://cernvm-online.cern.ch/market/list)
 and clicking on the _Pair_ button on the right-hand panel,
 you are presented with a six-digit number.
 After entering the PIN into your CernVM's login screen
@@ -57,13 +57,13 @@ if you're using VirtualBox with the _Shared Folders_ functionality,
 after adding the folders you want access to via the VM's _Settings_
 and rebooting the VM you'll do something like this:
 ```bash
-[gridpp@localhost ~]$ sudo usermod -a -G vboxsf gridpp
+$ sudo usermod -a -G vboxsf gridpp
 [sudo] password for gridpp: # Enter 'gridpp' here.
 ```
 before loggin out and logging in again.
 You'll then be able to access the folders you specified.
 ```bash
-[gridpp@localhost ~]$ cd /media/sf_CardStack001 # Shared Folder "CardStack001" 
-[gridpp@localhost sf_CardStack001]$ ls
+$ cd /media/sf_adalovelace/ # Shared Folder "adalovelace" 
+$ ls
 punch-card-01.dat dad-poem-001.txt my-poem-005.txt
 ```
