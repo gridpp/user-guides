@@ -63,7 +63,7 @@ $ sudo usermod -a -G vboxsf gridpp
 before loggin out and logging in again.
 You'll then be able to access the folders you specified.
 ```bash
-$ cd /media/sf_adalovelace/ # Shared Folder "adalovelace" 
+$ cd /media/sf_alovelace/ # Shared Folder "alovelace" 
 $ ls
 punch-card-01.dat dad-poem-001.txt my-poem-005.txt
 ```
