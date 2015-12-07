@@ -163,7 +163,21 @@ to log in to your CernVM.
 And that's it! You now have a shiny new GridPP CernVM from which
 you'll be able to access the Grid.
 
-##One last thing: local hard disk access
+##Two final things
+
+###Configure git
+We'll be using `git` (and GitHub) to access various
+pieces of code and scripts. The CernVM comes with `git`
+installed but you'll need to configure it with your
+username and email address. This can be done with
+the following commands:
+
+```bash
+$ git config --global user.name "Ada Lovelace"
+$ git config --global user.email alovelace@qmul.ac.uk
+```
+
+###Local hard disk access
 
 Before we move on, it's important to note that
 you will need to be able to access the hard disk of 
@@ -184,3 +198,5 @@ Shared Folders functionality.
 Before proceeding, you should make sure that you can
 access the parts of your local hard disk that contain
 any software or data that you want to copy across.
+
+Let's review what we've done with the [checklist](checklist.html).
