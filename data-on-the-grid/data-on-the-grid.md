@@ -15,6 +15,14 @@ Our focus is going to be **data** - what we store,
 how we store it, where we store it, how we find it later - so
 we’ll start as we mean to go on: _with the data_.
 
+In this section, we'll briefly look at:
+* The [DIRAC File Catalog Command Line Interface](dirac-dfc-cli.md) (DFC CLI);
+* The [DIRAC command line tools](dirac-cl-tools.md);
+* Some [first steps with the DFC's metadata functionality](dirac-metadata-first-steps.md).
+
+First, though, let's look at some basic concepts in
+grid-based data management.
+
 ##Storage Elements, File Catalogs, and Replicas
 The first thing to wrap one's head around with distributed computing
 is the notion that you don't really need to care about where your data

@@ -32,6 +32,8 @@ Welcome to the [GridPP](https://www.gridpp.ac.uk) UserGuide.
 
 * [Putting Data on the Grid](data-on-the-grid/data-on-the-grid.md)
     * [The DFC Command Line Interface](data-on-the-grid/dirac-dfc-cli.md)
+    * [The DIRAC command line tools](data-on-the-grid/dirac-cl-tools.md)
+    * [First steps with the DIRAC metadata functionality](data-on-the-grid/dirac-metadata-first-steps.md)
 
 * [The DIRAC Basic Tutorials](dirac-basic-tutorials/dirac-basic-tutorials.md)
     * [Checklist](dirac-basic-tutorials/checklist.md)
