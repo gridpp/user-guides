@@ -378,20 +378,9 @@ It looks like your download has worked. Congratulations!
 $ rm WELCOME.md
 ```
 
-This is only a taste of what can be done with the
-DIRAC File Catalog via the DFC CLI.
-You can find out more about how DIRAC
-can be used in the
-[DIRAC tutorials](../dirac-basic-tutorials/dirac-basic-tutorials.md).
-
-<table>
-<tr>
-<td align='center'><i class="fa fa-info-circle" style='font-size:3em'></i></td>
-<td>
-<strong>Coming soon</strong>:
-<em>automate putting data on the grid with
-(scriptable) DIRAC commands and the DIRAC Python API</em>.
-</td>
-</tr>
-</table>
-
+As we said earlier, the DFC CLI is only useful for small-scale
+operations. On our way to scaling up, we can look at
+starting to automate our workflows using scripts.
+In the next section we'll look at how the
+[DIRAC command line tools](dirac-cl-tools.md)
+can help with this.
