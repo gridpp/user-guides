@@ -22,7 +22,7 @@ Welcome to the [GridPP](https://www.gridpp.ac.uk) UserGuide.
     * [Checklist](getting-on-the-grid/checklist.md)
     * [Testing](getting-on-the-grid/testing.md)
 
-* [First steps with the Grid](grid-first-steps/grid-first-steps.md)
+* [First Steps with the Grid](grid-first-steps/grid-first-steps.md)
     * [Checklist](grid-first-steps/checklist.md)
     * [Testing](grid-first-steps/testing.md)
 
@@ -35,7 +35,7 @@ Welcome to the [GridPP](https://www.gridpp.ac.uk) UserGuide.
     * [The DIRAC command line tools](data-on-the-grid/dirac-cl-tools.md)
     * [First steps with the DIRAC metadata functionality](data-on-the-grid/dirac-metadata-first-steps.md)
 
-* [The DIRAC Basic Tutorials](dirac-basic-tutorials/dirac-basic-tutorials.md)
-    * [Checklist](dirac-basic-tutorials/checklist.md)
+* [Your First Grid Job](grid-first-job/grid-first-job.md)
+    * [Checklist](grid-first-job/checklist.md)
 
 * [What's Next?](whats-next/whats-next.md)
