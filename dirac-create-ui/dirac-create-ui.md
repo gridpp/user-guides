@@ -49,7 +49,7 @@ $ wget -np -O dirac-install http://lhcbproject.web.cern.ch/lhcbproject/dist/Dira
 . [Much output.]
 .
 $ chmod u+x dirac-install
-$ ./dirac-install -r v6r14p5 -i 27 -g 2015-09-03
+$ ./dirac-install -r v6r15p6 -i 27 -g 2015-09-03
 .
 . [Many messages.]
 .
