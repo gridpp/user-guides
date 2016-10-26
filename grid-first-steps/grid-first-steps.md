@@ -94,7 +94,7 @@ permission to work with Grid resources - via the command line
 with the following command:
 
 ```bash
-$ voms-proxy-init -dont-verify-ac --voms gridpp
+$ voms-proxy-init --dont_verify_ac --voms gridpp
 Enter GRID pass phrase:
 [Some output]
 Creating proxy............... Done
