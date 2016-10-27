@@ -7,6 +7,10 @@ Welcome to the [GridPP](https://www.gridpp.ac.uk) UserGuide.
     * [Conventions in this guide](before-we-begin/conventions.md)
     * [Getting help](before-we-begin/getting-help.md)
 
+* [First steps: Hello Worlds!](ganga-first-steps/ganga-first-steps.md)
+    * [Checklist](ganga-first-steps/checklist.md)
+    * [Testing](ganga-first-steps/testing.md)
+
 * [Appendix: Creating a GridPP CernVM User Interface](gridpp-cernvm/gridpp-cernvm.md)
     * [Checklist](gridpp-cernvm/checklist.md)
     * [Testing](gridpp-cernvm/testing.md)
