@@ -1,24 +1,9 @@
-#The CernVM: Create Your Own Virtual Grid Node
-Before we get you on the Grid, we will first bring a little
-(virtual) piece of the Grid to you.
-The Grid consists of tens - possibly even hundreds - of thousands
-of computing cores that power the Grid's **worker nodes**.
-
-<table>
-<tr>
-<td align='center'><i class="fa fa-info-circle" style='font-size:3em'></i></td>
-<td>
-A <strong>Worker Node</strong> (WN) is the atomic unit of
-Grid computing, representing a point within the Grid where
-useful work - jobs - are carried at the behest of the Grid user
-who submitted them.
-</td>
-</tr>
-</table>
-
-To give you a taste of the Grid before actually getting on the Grid,
-we will create a **Virtual Machine** (VM)
-that will, essentially, act like a Grid Worker Node (WN)
+#Appendix: Creating a GridPP CernVM User Interface
+If you don't have an account on a grid-ready cluster,
+don't worry -
+this section will show you how to
+create a **Virtual Machine** (VM)
+that will, essentially, act as a grid User Interface (UI)
 within whatever
 operating system you happen to be using at the moment.
 We will do this using the
@@ -26,15 +11,19 @@ We will do this using the
 and create a guest CernVM on your host system.
 There are a number of reasons to do this:
 
+1. The CernVM can act as a pre-built Grid User Interface (UI) that will give
+you all the tools you need (e.g. a command line terminal, text editors, etc.)
+to get the most out of the Grid;
+1. Your CernVM will also give you instant access to the
+CernVM-File System (CVMFS). A lot of the software we will use to
+manage our grid jobs and data is provided using this,
+with the huge bonus of _not needing any installation by you_.
 1. Most of the Grid tools we will use are compiled to run on
 Scientific Linux 6;
 With a CernVM you'll be able to use them out of the box;
 1. The standard Grid Worker Nodes you'll be using to run your software
 on use SL6 machines. If your code runs on your CernVM, it will run
 on the Grid;
-1. The CernVM can also act as a pre-built Grid User Interface (UI) that will give
-you all the tools you need (e.g. a command line terminal, text editors, etc.)
-to get the most out of the Grid;
 1. What's more, if everyone uses the CernVM as their Grid UI,
 we at GridPP will only have to support one operating system
 (i.e. the SL6 supplied with the CernVM).

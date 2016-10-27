@@ -136,6 +136,12 @@ Finally, if none of the other methods yield results,
 drop us a line using the details on our
 [contact page](https:///www.gridpp.ac.uk/contact/).
 
-Now let's see about creating you a
-[User Interface](../gridpp-cernvm/gridpp-cernvm.html),
-shall we?
+<table>
+<tr>
+<td align='center'><i class="fa fa-lightbulb-o" style='font-size:3em'></i></td>
+<td>
+Click on the right arrow (or press the right arrow key)
+to continue to the next section of the UserGuide.
+</td>
+</tr>
+</table>

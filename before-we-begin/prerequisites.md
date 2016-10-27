@@ -92,6 +92,20 @@ a GridPP representative at your local institution - if not,
 feel free to
 [drop us a line](https://www.gridpp.ac.uk/contact/).
 
+* **A Scientific Linux 6 command line with CVMFS access**:
+This will either be provided by your friendly GridPP contact
+(see above) or via a
+[GridPP CernVM](../gridpp-cernvm/gridpp-cernvm.html),
+a Virtual Machine made by
+[CERN](http://cern.home) that you can run yourself.
+The [CernVM-File System](https://cernvm.cern.ch/),
+a.k.a. CernVM-FS or CVMFS, gives you (and any grid node, for that matter)
+instant access to all sorts of software _without having to install anything_.
+So it's worth sorting out!
+You can find instructions for creating a
+[GridPP CernVM](../gridpp-cernvm/gridpp-cernvm.html) in
+[this appendix](../gridpp-cernvm/gridpp-cernvm.html).
+
 Got all of that? Good. Now let's look at the
 [conventions](conventions.html)
 used by the _GridPP UserGuide_.

@@ -6,3 +6,7 @@ Welcome to the [GridPP](https://www.gridpp.ac.uk) UserGuide.
     * [Prerequisites](before-we-begin/prerequisites.md)
     * [Conventions in this guide](before-we-begin/conventions.md)
     * [Getting help](before-we-begin/getting-help.md)
+
+* [Appendix: Creating a GridPP CernVM User Interface](gridpp-cernvm/gridpp-cernvm.md)
+    * [Checklist](gridpp-cernvm/checklist.md)
+    * [Testing](gridpp-cernvm/testing.md)
