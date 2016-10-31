@@ -72,3 +72,122 @@ create an <strong>alias</strong> for the Ganga start command in your
 </table>
 
 All good so far? Great. Now you're ready to submit your first **job**.
+
+## Submitting a Hello, World! job
+Ganga has an iPython-esque command line interface for
+real-time job management. Things like jobs are modelled using
+Python objects. So creating and submitting a job is as simple
+as this:
+
+```bash
+Ganga In [X]: j = Job()
+Ganga In [X]: j.submit() 
+```
+
+You should see an output that looks like something like this:
+
+```bash
+INFO     submitting job X
+INFO     job X status changed to "submitting"
+INFO     Preparing Executable application.
+INFO     Created shared directory: [temporary directory name]
+INFO     Preparing subjobs
+INFO     submitting job X to Local backend
+INFO     job X status changed to "submitted"
+```
+
+What's going on here? Well, the `Job()` object has a bunch
+of default settings that, on instantiation, create a
+Hello, World! job that submits to the "Local" backend -
+i.e. the machine you are running on.
+
+<table>
+<tr>
+<td align='center'><i class="fa fa-info-circle" style='font-size:3em'></i></td>
+<td>
+The back-end is wherever you want your jobs to run -
+your local machine, your local computing cluster,
+or the grid (via GridPP DIRAC). The beauty of Ganga
+is that you have the same interface for whichever you are
+using - which makes switching between them a case of
+tweaking some configuration files.
+</td>
+</tr>
+</table>
+
+In the time it has taken to read the above, you should see
+the following output (press return if not).
+
+```bash
+INFO     job X status changed to "running"
+INFO     Job X Running PostProcessor hook
+INFO     job X status changed to "completed"
+INFO     removing: [temporary directory name]
+```
+
+Your job has finished. You can check this - and the status
+of any other jobs - using the `jobs` command, which produces
+a neat little summary table of all of your jobs:
+
+```bash
+Ganga In [X]: jobs
+Ganga Out [X]: 
+Registry Slice: jobs (1 object)
+--------------
+    fqid |    status |      name | subjobs |    application |        backend |                             backend.actualCE |                       comment 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+       X | completed |           |         |     Executable |      Localhost |                                  [host name] |
+```
+
+OK, so your job has run and finished, but where is the
+famous phrase that signifies success? Well, Ganga manages your
+job output for you in a series of output directories.
+More on this later, but you can peek at the output with
+the following command from Ganga:
+
+```bash
+Ganga In [X]: j.peek('stdout', 'more')
+Hello World
+
+```
+
+<table>
+<tr>
+<td align='center'><i class="fa fa-info-circle" style='font-size:3em'></i></td>
+<td>
+We've used the <code>more</code> program to read the output,
+but you can specify your own if you like...
+</td>
+</tr>
+</table>
+
+Ta da! You've submitted, run, completed, and checked the output
+from, your first grid-like job. OK, so it didn't run on the
+grid this time, but thanks to Ganga the process isn't actually
+that different.
+
+<table>
+<tr>
+<td align='center'><i class="fa fa-info-circle" style='font-size:3em'></i></td>
+<td>
+In fact the ability to run grid-like jobs locally is very
+useful for testing your workflow out before unleashing it
+on the grid...
+</td>
+</tr>
+</table>
+
+Finally, to tidy up:
+
+```bash
+Ganga In [X]: j.remove()
+INFO     removing job X
+
+```
+
+You can check with the `jobs` command that the job has gone from the list.
+
+Congratulations - you've submitted your first job! But we can do better than
+that: with distributed computing, the idea is to break your problem into
+bits and tackle them with multiple jobs: _divide and conquer_.
+Let's see how easy this is to do with Ganga.
