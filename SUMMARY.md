@@ -7,9 +7,21 @@ Welcome to the [GridPP](https://www.gridpp.ac.uk) UserGuide.
     * [Conventions in this guide](before-we-begin/conventions.md)
     * [Getting help](before-we-begin/getting-help.md)
 
-* [First steps: Hello Worlds!](ganga-first-steps/ganga-first-steps.md)
+* [First Steps: Hello Worlds!](ganga-first-steps/ganga-first-steps.md)
     * [Checklist](ganga-first-steps/checklist.md)
     * [Testing](ganga-first-steps/testing.md)
+
+* [An Example Workflow: Local Running](example-workflow-local/example-workflow-local.md)
+    * [Checklist](example-workflow-local/checklist.md)
+    * [Testing](example-workflow-local/testing.md)
+
+* [Getting on the Grid](getting-on-the-grid/getting-on-the-grid.md)
+    * [Getting a grid certificate](getting-on-the-grid/grid-certificate.md)
+    * [Joining a Virtual Organisation](getting-on-the-grid/joining-a-vo.md)
+    * [Logging on with GridPP DIRAC](getting-on-the-grid/dirac-first-steps.md)
+    * [Preparing your Grid Certificate](getting-on-the-grid/preparing-your-certificate.md)
+    * [Checklist](getting-on-the-grid/checklist.md)
+    * [Testing](getting-on-the-grid/testing.md)
 
 * [Appendix: Creating a GridPP CernVM User Interface](gridpp-cernvm/gridpp-cernvm.md)
     * [Checklist](gridpp-cernvm/checklist.md)

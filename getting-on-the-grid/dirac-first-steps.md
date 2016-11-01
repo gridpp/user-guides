@@ -52,6 +52,7 @@ You can join the mailing list
 </table>
 
 So you've accessed the GridPP DIRAC web portal. Congratulations!
-However, to harness the true power of GridPP's resources you
-will need to use the command line tools.
-We'll look at these in the next few sections.
+However, as discussed, we'll be using GridPP DIRAC via the Ganga interface.
+In order to do that, you'll need to install your grid certificate on
+your local machine - and the instructions for this are
+[here](preparing-your-certificate.md).

@@ -11,7 +11,21 @@ We'll do this using the
 [Ganga](http://ganga.readthedocs.io) toolsuite.
 By the end of this chapter you'll have used Ganga to submit multiple
 jobs with a single command and check their output.
-We won't use the grid yet - they will run on your local machine -
+
+<table>
+<tr>
+<td align='center'><i class="fa fa-info-circle" style='font-size:3em'></i></td>
+<td>
+A <strong>job</strong> is the term we use to describe a task,
+or set of tasks,
+we run on our local machine, our cluster's machines,
+or the grid's Worker Nodes (WNs).
+We'll come back to these concepts later in the <em>UserGuide</em>.
+</td>
+</tr>
+</table>
+
+We won't be using the grid yet - they will run on your local machine -
 but thanks to Ganga and the other tools used by GridPP
 making the switch to grid running is pretty straightforward.
 
@@ -307,4 +321,4 @@ using Ganga and, ultimately, the Grid.
 _Now take a look at the [checklist](checklist.md) to make sure
 you've got everything from this chapter nailed.
 Then we'll look at a
-[more complicated workflow](../example-workflow/example-workflow.md)_.
+[more complicated workflow](../example-workflow-local/example-workflow-local.md)_.
