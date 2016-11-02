@@ -155,3 +155,7 @@ took to switch to Grid running was a single line of code.
 deploy your software to the Grid;
 * You didn't need to care about where the job actually ran - Ganga and
 DIRAC sorted that all for you.
+
+There's only one more thing to look at now before we've covered
+all of the Grid-bases - getting data on and off the Grid.
+We'll look at that in the next section.
