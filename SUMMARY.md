@@ -23,6 +23,10 @@ Welcome to the [GridPP](https://www.gridpp.ac.uk) UserGuide.
     * [Checklist](getting-on-the-grid/checklist.md)
     * [Testing](getting-on-the-grid/testing.md)
 
+* [Moving your Workflow to the Grid](example-workflow-grid/example-workflow-grid.md)
+    * [Checklist](example-workflow-grid/checklist.md)
+    * [Testing](example-workflow-grid/testing.md)
+
 * [Appendix: Creating a GridPP CernVM User Interface](gridpp-cernvm/gridpp-cernvm.md)
     * [Checklist](gridpp-cernvm/checklist.md)
     * [Testing](gridpp-cernvm/testing.md)

@@ -149,7 +149,7 @@ j.application.exe = File('run.sh')
 j.application.args = ['B06-W0212/2014-04-02-150255/']
 
 # Specifiy which local files to upload with the job.
-j.inputfiles = [ LocalFile('run.sh'), LocalFile('CERNatschool_backgroundrad_dataset.zip') ]
+j.inputfiles = [ LocalFile('CERNatschool_backgroundrad_dataset.zip') ]
 
 # Specify which files should be downloaded as output from the job.
 j.outputfiles = [ LocalFile('frames.json'), LocalFile('log_process-frames.log'), LocalFile('output_images.tar') ]
