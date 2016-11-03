@@ -7,7 +7,7 @@ Welcome to the [GridPP](https://www.gridpp.ac.uk) UserGuide.
     * [Conventions in this guide](before-we-begin/conventions.md)
     * [Getting help](before-we-begin/getting-help.md)
 
-* [First Steps: Hello Worlds!](ganga-first-steps/ganga-first-steps.md)
+* [First Steps: Hello World(s)!](ganga-first-steps/ganga-first-steps.md)
     * [Checklist](ganga-first-steps/checklist.md)
     * [Testing](ganga-first-steps/testing.md)
 
@@ -23,7 +23,7 @@ Welcome to the [GridPP](https://www.gridpp.ac.uk) UserGuide.
     * [Checklist](getting-on-the-grid/checklist.md)
     * [Testing](getting-on-the-grid/testing.md)
 
-* [Moving your Workflow to the Grid](example-workflow-grid/example-workflow-grid.md)
+* [Moving Your Workflow to the Grid](example-workflow-grid/example-workflow-grid.md)
     * [Checklist](example-workflow-grid/checklist.md)
     * [Testing](example-workflow-grid/testing.md)
 
@@ -34,9 +34,11 @@ Welcome to the [GridPP](https://www.gridpp.ac.uk) UserGuide.
     * [Checklist](data-on-the-grid/checklist.md)
     * [Testing](data-on-the-grid/testing.md)
 
-* [Using Grid-based Data in Your Workflow](example-workflow-grid-data/example-workflow-grid-data.md)
+* [Using Grid Data in Your Workflow](example-workflow-grid-data/example-workflow-grid-data.md)
     * [Checklist](example-workflow-grid-data/checklist.md)
     * [Testing](example-workflow-grid-data/testing.md)
+
+* [What's Next?](whats-next/whats-next.md)
 
 * [Appendix: Creating a GridPP CernVM User Interface](gridpp-cernvm/gridpp-cernvm.md)
     * [Checklist](gridpp-cernvm/checklist.md)
