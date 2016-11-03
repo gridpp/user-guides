@@ -216,11 +216,5 @@ $ cat WELCOME.md
 It looks like your download has worked. Congratulations!
 ```
 
-Now, in terms of scripting this process,
-the command line tools are perhaps a little clumsy.
-The good news is that DIRAC has functionality that can
-help with this that is available via the DIRAC
-Python Application Programming Interface (API).
-First, though, we'll take a closer look at the
-DFC's 
+Let's take a closer look at the DFC's 
 [metadata functionality using the DFC CLI](dirac-metadata-first-steps.md).

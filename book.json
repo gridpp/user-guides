@@ -1,1 +1,1 @@
-{ "title": "The GridPP UserGuide", "plugins": ["toggle-chapters"] }
+{ "title": "The GridPP UserGuide", "plugins": ["toggle-chapters"], "gitbook": ">= 2.0.0" }

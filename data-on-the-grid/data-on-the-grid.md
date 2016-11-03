@@ -1,21 +1,13 @@
 #Putting Data on the Grid
-
-So, you’ve got a grid certificate.
-You’ve joined a Virtual Organisation,
-and you have access to a working User Interface to
-the GridPP DIRAC system.
-What's next?
-Well, we could go one of two ways.
-Most grid tutorials start with submitting a **grid job** – a
-computational task performed on a Worker Node (WN).
-There are lots of little cute things one can do with
-these – the _Hello World!_ grid job is a classic – but
-we're going to do things a little differently.
-Our focus is going to be **data** - what we store,
-how we store it, where we store it, how we find it later - so
-we’ll start as we mean to go on: _with the data_.
-
-In this section, we'll briefly look at:
+We've now moved the
+[local example workflow](../example-workflow-local/example-workflow-local.md)
+to the
+[Grid](../example-workflow-grid/example-workflow-grid.md).
+However, we've still only used data that's been present
+on our local system, and we've manually retrieved the output to our local
+system.
+To harness the full power of the Grid, we'll need to put data on it.
+We'll use tools provided with DIRAC to do this, namely:
 * The [DIRAC File Catalog Command Line Interface](dirac-dfc-cli.md) (DFC CLI);
 * The [DIRAC command line tools](dirac-cl-tools.md);
 * Some [first steps with the DFC's metadata functionality](dirac-metadata-first-steps.md).

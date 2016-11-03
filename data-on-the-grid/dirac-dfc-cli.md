@@ -29,21 +29,8 @@ The DFC CLI is accessed via a DIRAC command,
 so we'll need to source our DIRAC environment
 and generate a DIRAC proxy.
 
-<table>
-<tr>
-<td align='center'><i class="fa fa-warning" style='font-size:3em'></i></td>
-<td>
-As ever, we will assume you have installed your
-DIRAC UI in <code>/home/gridpp/dirac_ui</code> on your GridPP CernVM.
-If you have a different setup, please be prepared to adjust the
-commands accordingly.
-</td>
-</tr>
-</table>
-
 ```bash
-$ cd /home/gridpp/dirac_ui
-$ . bashrc
+$ source /cvmfs/ganga.cern.ch/dirac_ui/bashrc
 $ dirac-proxy-init -g gridpp_user -M
 Generating proxy... 
 Enter Certificate password: # Enter your grid certificate password...
@@ -215,9 +202,11 @@ We can list the available SEs with the following DIRAC command:
 $ dirac-dms-show-se-status 
 SE                           ReadAccess WriteAccess RemoveAccess CheckAccess 
 =============================================================================
+[... more disks ...]
 UKI-LT2-QMUL2-disk           Active     Active      Unknown      Unknown     
-UKI-LT2-QMUL3-disk           Active     Active      Unknown      Unknown 
+[... more disks ...]
 UKI-NORTHGRID-LIV-HEP-disk   Active     Active      Unknown      Unknown
+[... more disks ...]
 ```
 
 While we don't need to know the details of where and how our data

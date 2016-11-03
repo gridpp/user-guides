@@ -21,18 +21,6 @@ This last point is particularly exciting. It means we can get
 an instant taste of distributed computing by running a
 **grid job** on your own CernVM. 
 
-<table>
-<tr>
-<td align='center'><i class="fa fa-info-circle" style='font-size:3em'></i></td>
-<td>
-A <strong>grid job</strong> is the term we use to describe a task,
-or set of tasks,
-we run on the grid's Worker Nodes (WNs).
-We'll come back to these concepts later in the <em>UserGuide</em>.
-</td>
-</tr>
-</table>
-
 
 <table>
 <tr>
