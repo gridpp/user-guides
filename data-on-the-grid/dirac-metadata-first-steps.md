@@ -113,4 +113,10 @@ Hopefully, though, you can start to appreciate the power of
 **metadata** when it comes to organising your data
 and performing analyses on it.
 
-_Coming soon: managing your data with the DIRAC Python API!_
+The most important thing for the moment, though, is that we can
+now put data on the Grid (i.e. on a Storage Element).
+This means we can use it in our Grid jobs without needing to
+upload with our job as an `inputfile`.
+We'll now complete making our example workflow
+fully Grid-enabled in the next section,
+[Using Grid-based data in your workflow](../example-workflow-griddata/example-workflow-grid-data.md).

@@ -27,6 +27,13 @@ Welcome to the [GridPP](https://www.gridpp.ac.uk) UserGuide.
     * [Checklist](example-workflow-grid/checklist.md)
     * [Testing](example-workflow-grid/testing.md)
 
+* [Putting Data on the Grid](data-on-the-grid/data-on-the-grid.md)
+    * [The DFC Command Line Interface](data-on-the-grid/dirac-dfc-cli.md)
+    * [The DIRAC command line tools](data-on-the-grid/dirac-cl-tools.md)
+    * [First steps with the DIRAC metadata functionality](data-on-the-grid/dirac-metadata-first-steps.md)
+    * [Checklist](data-on-the-grid/checklist.md)
+    * [Testing](data-on-the-grid/testing.md)
+
 * [Appendix: Creating a GridPP CernVM User Interface](gridpp-cernvm/gridpp-cernvm.md)
     * [Checklist](gridpp-cernvm/checklist.md)
     * [Testing](gridpp-cernvm/testing.md)
