@@ -34,6 +34,10 @@ Welcome to the [GridPP](https://www.gridpp.ac.uk) UserGuide.
     * [Checklist](data-on-the-grid/checklist.md)
     * [Testing](data-on-the-grid/testing.md)
 
+* [Using Grid-based Data in Your Workflow](example-workflow-grid-data/example-workflow-grid-data.md)
+    * [Checklist](example-workflow-grid-data/checklist.md)
+    * [Testing](example-workflow-grid-data/testing.md)
+
 * [Appendix: Creating a GridPP CernVM User Interface](gridpp-cernvm/gridpp-cernvm.md)
     * [Checklist](gridpp-cernvm/checklist.md)
     * [Testing](gridpp-cernvm/testing.md)
