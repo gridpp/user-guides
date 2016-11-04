@@ -217,7 +217,7 @@ script (which we will call `hello_worlds.py`):
 
 ```bash
 $ cat hello_worlds.py
-worlds = ['Mercury', 'Venus', 'Mars', 'Earth', 'Jupiter', 'Saturn', 'Neptune', 'Uranus', 'Pluto']
+worlds = ['Mercury', 'Venus', 'Mars', 'Earth', 'Jupiter', 'Saturn', 'Uranus', 'Neptune', 'Pluto']
 
 for world in worlds:
     j = Job()
