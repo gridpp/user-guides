@@ -159,7 +159,7 @@ All source code in the _GridPP UserGuide_ is available jointly
 under the
 [MIT License](http://opensource.org/licenses/MIT)
 and the
-[Beerware License])http://people.freebsd.org/~phk/):
+[Beerware License](http://people.freebsd.org/~phk/):
 
 ```
 The MIT License
