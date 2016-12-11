@@ -88,10 +88,6 @@ GLITE_SETUP = /cvmfs/ganga.cern.ch/dirac_ui/bashrc
 
 [DIRAC]
 DiracEnvSource = /cvmfs/ganga.cern.ch/dirac_ui/bashrc
-
-[defaults_GridCommand]
-info = dirac-proxy-info
-init = dirac-proxy-init -g <dirac user group> -M
 ```
 where `<dirac user group>` should be replaced by your
 default VO (e.g. `gridpp_user`).
