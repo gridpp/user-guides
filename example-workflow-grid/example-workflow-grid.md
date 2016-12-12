@@ -87,6 +87,9 @@ GLITE_SETUP = /cvmfs/ganga.cern.ch/dirac_ui/bashrc
 
 [DIRAC]
 DiracEnvSource = /cvmfs/ganga.cern.ch/dirac_ui/bashrc
+
+[defaults_DiracProxy]
+group = <dirac user group>
 ```
 where `<dirac user group>` should be replaced by your
 default VO (e.g. `gridpp_user`).
