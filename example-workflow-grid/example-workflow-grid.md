@@ -83,7 +83,6 @@ you need to add the following to your
 RUNTIME_PATH = GangaDirac
 
 [LCG]
-GLITE_ENABLE = True
 GLITE_SETUP = /cvmfs/ganga.cern.ch/dirac_ui/bashrc
 
 [DIRAC]
