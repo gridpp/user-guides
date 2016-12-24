@@ -5,6 +5,14 @@ _GridPP UserGuide_.
 If you don't happen to have a GridPP expert in the office
 down the corridor, you can try the methods described below.
 
+##Check the troubleshooting guide
+We've added a
+[short troubleshooting guide](../troubleshooting/troubleshooting.md)
+for problems that users have come across that we know are specific
+to particular systems, generally raised via the
+[GitHub Issues page](http://github.com/gridpp/user-guides/issues).
+It might be worth checking here first for anything obvious.
+
 ##Googling the error
 We can't possibly account for every error a user might
 encounter when working through the _UserGuide_,

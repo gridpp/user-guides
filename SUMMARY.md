@@ -40,6 +40,8 @@ Welcome to the [GridPP](https://www.gridpp.ac.uk) UserGuide.
 
 * [What's Next?](whats-next/whats-next.md)
 
+* [Troubleshooting](troubleshooting/troubleshooting.md)
+
 * [Appendix: Creating a GridPP CernVM User Interface](gridpp-cernvm/gridpp-cernvm.md)
     * [Checklist](gridpp-cernvm/checklist.md)
     * [Testing](gridpp-cernvm/testing.md)
