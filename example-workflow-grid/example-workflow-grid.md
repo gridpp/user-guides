@@ -90,9 +90,26 @@ DiracEnvSource = /cvmfs/ganga.cern.ch/dirac_ui/bashrc
 
 [defaults_DiracProxy]
 group = <dirac user group>
+
+[defaults_DiracFile]
+defaultSE = <your SE of choice>
 ```
 where `<dirac user group>` should be replaced by your
-default VO (e.g. `gridpp_user`).
+default VO (e.g. `gridpp_user`)
+and
+`<your SE of choice>` should be replaced by a suitable
+Storage Element, e.g. `UKI-LT2-QMUL2-disk`.
+
+<table>
+<tr>
+<td align='center'><i class="fa fa-lightbulb-o" style='font-size:3em'></i></td>
+<td>
+You can find a list of Storage Elements names by using the
+<code>dirac-dms-show-se-status</code> command from the command line.
+</td>
+</tr>
+</table>
+
 You can then re-start Ganga; it will now be ready to connect
 to the DIRAC backend.
 
