@@ -43,7 +43,7 @@ _you don't even have to install it_.
 On your terminal with CVMFS access, Ganga can be started
 by simply typing
 ```bash
-$ source /cvmfs/ganga.cern.ch/runGanga.sh
+$ /cvmfs/ganga.cern.ch/runGanga.sh
 ```
 After various welcome messages have been presented,
 you should see the Ganga command prompt:
