@@ -275,7 +275,7 @@ one go:
 Ganga In [X]: my_jobs = jobs.select(name='hello_*')
 
 Ganga In [X]: my_jobs
-Ganga Out [6]: 
+Ganga Out [X]: 
 Registry Slice: jobs.select(minid='None', maxid='None', name="None") (9 objects)
 --------------
     fqid |    status |      name | subjobs |    application |        backend |                             backend.actualCE |                       comment 
