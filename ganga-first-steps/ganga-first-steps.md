@@ -230,10 +230,10 @@ for world in worlds:
 <tr>
 <td align='center'><i class="fa fa-lightbulb-o" style='font-size:3em'></i></td>
 <td>
-You may want to have two terminals running in your working directory --
-one to run Ganga in, and one to write scripts in. This will save having to
-quit Ganga each time you want to edit a script with a command-line editor
-(e.g. vim).
+If using a command-line editor (e.g. vim), you may want to have two
+terminals running in your working directory — one to run Ganga in,
+and one to write scripts in. This will save having to quit Ganga each
+time you want to edit a script.
 </td>
 </tr>
 </table>
