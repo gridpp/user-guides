@@ -257,7 +257,7 @@ All being well, all nine jobs will run and complete. Using `jobs`
 to find the job ID, you can look at the output as before:
 
 ```bash
-Ganga In [X]: jobs(7).peek('stdout', 'more')
+Ganga In [X]: jobs(8).peek('stdout', 'more')
 Hello, Neptune!
 ```
 
@@ -280,9 +280,9 @@ Registry Slice: jobs.select(minid='None', maxid='None', name="None") (9 objects)
 --------------
     fqid |    status |      name | subjobs |    application |        backend |                             backend.actualCE |                       comment 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
-       X | completed |hello_merc |         |     Executable |      Localhost |                                   [hostname] |                               
+       1 | completed |hello_merc |         |     Executable |      Localhost |                                   [hostname] |                               
 [...]
-     X+8 | completed |hello_plut |         |     Executable |      Localhost |                                   [hostname] |                               
+       9 | completed |hello_plut |         |     Executable |      Localhost |                                   [hostname] |                               
 ```
 
 You can now use the `my_jobs` object to do things to your
@@ -303,9 +303,9 @@ use the slice you've created with the `select` command:
 
 ```bash
 Ganga In [X]: my_jobs.remove()
-INFO     removing job X
+INFO     removing job 1
 [...]
-INFO     removing job X+8
+INFO     removing job 9
 ```
 
 You can verify this has been successful with the `jobs` command.
