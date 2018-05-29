@@ -70,10 +70,10 @@ the ATLAS experiment's (CERN-hosted) CVFMS repository with:
 <td align='center'><i class="fa fa-warning" style='font-size:3em'></i></td>
 <td>
 All files and directories part of a CVMFS repository must be kept 'read'-able by everyone e.g.
-<code><br>
-find ./ -type d -exec chmod go+rx {} \; <br>
-find ./ -type f -exec chmod go+r {} \; <br>
-</code>
+<xmp>
+find ./ -type d -exec chmod go+rx {} \; 
+find ./ -type f -exec chmod go+r {} \; 
+</xmp>
 
 The bundle will not publish if it contains any non-readable files.
 
