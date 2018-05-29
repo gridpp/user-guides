@@ -14,4 +14,4 @@ is the community of
 experts who are there support grid users.
 This section looks at the various ways you can get help
 if you get stuck, run into problems, or need advice
-on a grid-related issue.
+on a grid-related issue. 
