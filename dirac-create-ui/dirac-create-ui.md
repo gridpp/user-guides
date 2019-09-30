@@ -22,7 +22,7 @@ We'll create a GridPP DIRAC UI now.
 
 Before proceeding, check you that you have:
 
-* Command line access to an SL6 machine;
+* Command line access to an SL7-type machine;
 * Your converted Grid certificate files in the `~/.globus` directory;
 * Successfully registered with a GridPP DIRAC-supported VO.
 
@@ -36,40 +36,9 @@ before submitting a
 [support request](https://github.com/gridpp/user-guides/issues).
 
 ##Installing the GridPP DIRAC UI
-To create a GridPP DIRAC on your SL6 machine,
-start a fresh terminal session
-(we'll assume you're using a GridPP CernVM)
-and enter the following commands:
-```bash
-$ cd ~
-$ mkdir dirac_ui
-$ cd dirac_ui
-$ wget -np -O dirac-install http://lhcbproject.web.cern.ch/lhcbproject/dist/Dirac_project/dirac-install
-.
-. [Much output.]
-.
-$ chmod u+x dirac-install
-$ ./dirac-install -r v6r15p6 -i 27 -g 2015-09-03
-.
-. [Many messages.]
-.
-2015-10-05 12:08:14 UTC dirac-install [NOTICE] DIRAC properly installed
-$ . bashrc 
-$ dirac-proxy-init -x # needs user cert password
-Generating proxy... 
-Enter Certificate password:
-Proxy generated: 
-subject      : /C=UK/O=eScience/OU=QueenMaryLondon/L=Computing/CN=ada lovelace/CN=proxy
-issuer       : /C=UK/O=eScience/OU=QueenMaryLondon/L=Computing/CN=ada lovelace
-identity     : /C=UK/O=eScience/OU=QueenMaryLondon/L=Computing/CN=ada lovelace
-timeleft     : 23:59:59
-path         : /tmp/x509up_u501
-$ dirac-configure -F -S GridPP -C dips://dirac01.grid.hep.ph.ic.ac.uk:9135/Configuration/Server -I
-.
-.[So grid]
-.
-```
 
+The maintainers of the GridPP DIRAC instance recommend that you install your DIRAC UI locally (you do not need root access) by following the procedure descibed [here](https://www.gridpp.ac.uk/wiki/Quick_Guide_to_Dirac). All updates in DIRAC versions will also be published on this page (and possibly on this page only).
+<br>
 That should configure your new GridPP DIRAC UI ready for use.
 Close and re-open the terminal (or log out and in again)
 before proceeding.

@@ -3,7 +3,12 @@ Now that you have your Grid certificate, and it is installed
 in your browser and in your `~/.globus` directory,
 you're ready to try submitting a job to the Grid with DIRAC.
 
-## Activate DIRAC!
+# Submitting your jobs to the GridPP DIRAC instance
+The maintainers of the GridPP DIRAC instance recommend that you install your DIRAC UI locally (you do not need root access) by following the procedure descibed [here](https://www.gridpp.ac.uk/wiki/Quick_Guide_to_Dirac). All updates in DIRAC versions will also be published on this page. If you are an extablished Ganga user, you can find instructions on how to use Ganga for this [below](#activatedirac). <br><br>
+We recommend that you follow the instructions provided on the [GridPP Wiki](https://www.gridpp.ac.uk/wiki/Quick_Guide_to_Dirac) to check your basic Grid setup is working and to familiarize yourself with its functionalities.
+
+
+## <a name="#activatedirac"></a>Ganga: Activate DIRAC!
 Thanks to CVMFS and the
 [Ganga team](https://github.com/ganga-devs/),
 activating the GridPP DIRAC functionality is easy:
@@ -26,7 +31,7 @@ your own DIRAC UI. Which makes life <em>a lot</em> easier...
 </tr>
 </table>
 
-## Generate a Grid proxy
+## Ganga and generic Grid usage: Generate a Grid proxy
 With DIRAC activated via CVMFS,
 you should now be able generate a DIRAC-specific proxy
 to be used as a member of a DIRAC-enabled VO.
@@ -113,7 +118,7 @@ You can find a list of Storage Elements names by using the
 You can then re-start Ganga; it will now be ready to connect
 to the DIRAC backend.
 
-# Run your job on the Grid
+# Ganga: Run your job on the Grid
 Now you're ready to run your job on the Grid.
 First, make a copy of the `local_job.py` script:
 ```bash

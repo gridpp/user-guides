@@ -17,12 +17,7 @@ instructions you need to join.
 
 If you're interesting in using the grid but are not (yet) working as part of
 a user community already represented by a VO, worry not.
-GridPP have created a catch-all VO - [`gridpp`](https://voms.gridpp.ac.uk:8443/voms/gridpp/) - and four
-Regional Virtual Organisations (RVOs) corresponding to the
-four Tier 2s that can be joined to test out what the grid has to offer.
-Once you have used these "incubator" VOs to see if the Grid meets
-your needs, you can then think about creating your own
-Virtual Organisation to represent your user community.
+GridPP have created a catch-all VO - [`gridpp`](https://voms.gridpp.ac.uk:8443/voms/gridpp/).
 
 <table>
 <tr>
@@ -70,17 +65,6 @@ To join the
 using a browser that has your grid certificate installed
 and follow the instructions.
 
-###Joining a Regional VO
-Likewise, you can join one of the four regional VOs by clicking
-on the links in the table below 
-and following the instructions.
-
-| Regional VO | Resource Centres |
-| --- | --- |
-| <a href="https://voms.gridpp.ac.uk:8443/voms/vo.londongrid.ac.uk/register/start.action" target="_blank">`vo.londongrid.ac.uk`</a> | Brunel, UCL, Imperial College, Queen Mary, Royal Holloway |
-| <a href="https://voms.gridpp.ac.uk:8443/voms/vo.northgrid.ac.uk/register/start.action" target="_blank">`vo.northgrid.ac.uk`</a> | Lancaster, Liverpool, Manchester, Sheffield, Daresbury Laboratory |
-| <a href="https://voms.gridpp.ac.uk:8443/voms/vo.scotgrid.ac.uk" target="_blank">`vo.scotgrid.ac.uk`</a> | Glasgow, Edinburgh, Durham |
-| <a href="https://voms.gridpp.ac.uk:8443/voms/vo.southgrid.ac.uk" target="_blank">`vo.southgrid.ac.uk`</a> | Birmingham, Bristol, Cambridge, Oxford, Warwick, Rutherford Appleton Laboratory, EFDA-JET, Sussex |
 
 <table>
 <tr>
