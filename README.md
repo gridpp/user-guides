@@ -1,4 +1,4 @@
-#The GridPP UserGuide
+#The GridPP UserGuide 
 
 Welcome to the _GridPP UserGuide_.
 The [GridPP Collaboration](https://www.gridpp.ac.uk)
