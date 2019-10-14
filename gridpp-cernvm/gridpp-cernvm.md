@@ -19,7 +19,7 @@ CernVM-File System (CVMFS). A lot of the software we will use to
 manage our grid jobs and data is provided using this,
 with the huge bonus of _not needing any installation by you_.
 1. Most of the Grid tools we will use are compiled to run on
-Scientific Linux 6;
+the CentOS7 linux distro;
 With a CernVM you'll be able to use them out of the box;
 1. The standard Grid Worker Nodes you'll be using to run your software
 on use SL6 machines. If your code runs on your CernVM, it will run

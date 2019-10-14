@@ -92,7 +92,7 @@ a GridPP representative at your local institution - if not,
 feel free to
 [drop us a line](https://www.gridpp.ac.uk/contact/).
 
-* **A Scientific Linux 6 command line with CVMFS access**:
+* **A Linux command line with CVMFS access**:
 This will either be provided by your friendly GridPP contact
 (see above) or via a
 [GridPP CernVM](../gridpp-cernvm/gridpp-cernvm.html),

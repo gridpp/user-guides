@@ -11,12 +11,12 @@ cernvm-3.5.1.iso
 
 * **Creating the CernVM**: When you start up your CernVM
 from your virtualisation software,
-you are eventually presented with a login screen.
+you are eventually presented with a login screen, similar to this.
 
 ```bash
-Welcome to CERN Virtual Machine, version 3.5.1.4
-  based on Scientific Linux release 6.6 (Carbon)
-  Kernel 3.18.20-18.cernvm.x86_64 on an x86_64
+Welcome to CERN Virtual Machine, version x.x.x.x
+  based on Linux release x.x 
+  Kernel xxx on an x86_64
 
 IP Address of this VM: [IP address]
 In order to apply cernvm-online context, use #<PIN> as user name.
