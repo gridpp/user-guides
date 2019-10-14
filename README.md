@@ -118,7 +118,7 @@ Ruby on Rails). We are also grateful to
 [GitHub](http://github.com) for our
 [Organizational Repository](http://github.com/gridpp) - thanks!
 
-##About the author
+##About the authors
 Tom Whyntie is Public Engagement Fellow at the
 [School of Physics & Astronomy](http://ph.qmul.ac.uk),
 [Queen Mary University of London](http://www.qmul.ac.uk).
@@ -133,18 +133,14 @@ during his time on the
 [Compact Muon Solenoid](http://cms.web.cern.ch/)
 (CMS) experiment at
 [CERN](http://cern.ch)'s Large Hadron Collider,
-Tom works as part of the GridPP Community to
-engage as many people as possible with the Grid
-through GridPP's New User Engagement Programme.
-He is also consultant scientist for the
+Tom is consultant scientist for the
 [CERN@school programme](http://cernatschool.web.cern.ch),
 Scientific Officer for the
 [Institute for Research in Schools](http://researchinschools.org),
 and a member of the
 [MoEDAL Collaboration](http://moedal.web.cern.ch).
 
-You can follow Tom on Twitter [here](http://twitter.com/twhyntie)
-and on GitHub [here](http:github.com/twhyntie).
+The document is currently maintained by Ste Jones, at Liverpool University (sjones@hep.ph.liv.ac.uk).
 
 ##Copyright and license
 
