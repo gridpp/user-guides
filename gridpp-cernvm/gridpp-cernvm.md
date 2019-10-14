@@ -22,11 +22,11 @@ with the huge bonus of _not needing any installation by you_.
 the CentOS7 linux distro;
 With a CernVM you'll be able to use them out of the box;
 1. The standard Grid Worker Nodes you'll be using to run your software
-on use SL6 machines. If your code runs on your CernVM, it will run
+on use CentOS7 machines. If your code runs on your CernVM, it will run
 on the Grid;
 1. What's more, if everyone uses the CernVM as their Grid UI,
 we at GridPP will only have to support one operating system
-(i.e. the SL6 supplied with the CernVM).
+(i.e. the CentOS7 supplied with the CernVM).
 If we're singing from the same (virtual) hymn sheet, we'll be able to recreate your
 problems and help you solve them more easily.
 
@@ -36,7 +36,7 @@ All you need to provide is the RAM and the hard disk space on your local host ma
 <tr>
 <td align='center'><i class="fa fa-lightbulb-o" style='font-size:3em'></i></td>
 <td>
-If you already have access to a user account on an SL6 terminal,
+If you already have access to a user account on a linux terminal,
 for example on a university computing cluster,
 you can probably skip this section.
 </td>
